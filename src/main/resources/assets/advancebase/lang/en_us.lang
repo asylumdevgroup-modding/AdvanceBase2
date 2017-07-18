@@ -1,0 +1,22 @@
+
+tile.copper_ore.name=Copper Ore
+tile.tin_ore.name=Tin Ore
+tile.aluminum_ore.name=Aluminum Ore
+tile.lead_ore.name=Lead Ore
+tile.silver_ore.name=Silver Ore
+tile.advancium_ore.name=Advancium Ore
+tile.copper_block.name=Copper Block
+tile.tin_block.name=Tin Block
+tile.aluminum_block.name=Aluminum Block
+tile.lead_block.name=Lead Block
+tile.silver_block.name=Silver Block
+
+item.copper_ingot.name=Copper Ingot
+item.tin_ingot.name=Tin Ingot
+item.aluminum_ingot.name=Aluminum Ingot
+item.lead_ingot.name=Lead Ingot
+item.silver_ingot.name=Silver Ingot
+item.advancium_ingot.name=Advancium Ingot
+
+
+itemGroup.assets/AdvanceBase=AdvanceBase
