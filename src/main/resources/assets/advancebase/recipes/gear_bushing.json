@@ -1,17 +1,17 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "EEE",
-    "EEE",
-    "EEE"
+    " E ",
+    "E E",
+    " E "
   ],
   "key": {
     "E": {
-      "item": "advancebase:copper_ingot"
+      "item": "minecraft:iron_nugget"
     }
     
   },
   "result": {
-    "item": "advancebase:copper_block"
+    "item": "advancebase:gear_bushing"
   }
 }

@@ -7,8 +7,7 @@
   ],
   "key": {
     "E": {
-      "type": "forge:ore_dict",
-      "ore": "ingotLead"
+      "item": "advancebase:lead_ingot"
     }
     
   },

@@ -7,8 +7,7 @@
   ],
   "key": {
     "E": {
-      "type": "forge:ore_dict",
-      "ore": "ingotAluminum"
+      "item": "advancebase:aluminum_ingot"
     }
     
   },

@@ -1,14 +1,14 @@
 [
 {
-  "modid": "examplemod",
-  "name": "Example Mod",
-  "description": "Example placeholder mod.",
-  "version": "${version}",
-  "mcversion": "${mcversion}",
+  "modid": "advancebase",
+  "name": "AdvanceBase",
+  "description": "The Base Resource mod for the AdvanceMods lineup",
+  "version": "2.0.2",
+  "mcversion": "1.12",
   "url": "",
   "updateUrl": "",
-  "authorList": ["ExampleDude"],
-  "credits": "The Forge and FML guys, for making this example",
+  "authorList": ["MCAdventureCity"],
+  "credits": "Shadowfacts, for his amazing tutorials",
   "logoFile": "",
   "screenshots": [],
   "dependencies": []

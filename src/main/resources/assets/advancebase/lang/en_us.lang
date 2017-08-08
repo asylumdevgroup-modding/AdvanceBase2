@@ -17,6 +17,11 @@ item.aluminum_ingot.name=Aluminum Ingot
 item.lead_ingot.name=Lead Ingot
 item.silver_ingot.name=Silver Ingot
 item.advancium_ingot.name=Advancium Ingot
+item.bronze_ingot.name=Bronze Ingot
+item.silicon.name=Silicon
+item.sulfur_dust.name=Sulfur Dust
+item.gear_bushing.name=Gear Bushing
+item.copper_gear.name=Copper Gear
+item.tin_gear.name=Tin Gear
 
-
-itemGroup.assets/AdvanceBase=AdvanceBase
+itemGroup.advancebase=AdvanceBase

@@ -1,0 +1,19 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		" R ",
+		"RPR",
+		" R "
+	],
+	"key": {
+		"R": {
+			"item": "advancebase:tin_ingot"
+		},
+		"P": {
+			"item": "advancebase:gear_bushing"
+		}
+	},
+	"result": {
+		"item": "advancebase:copper_gear"
+	}
+}
