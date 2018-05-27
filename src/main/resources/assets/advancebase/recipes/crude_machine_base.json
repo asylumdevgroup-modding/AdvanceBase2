@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "CIC",
+    "IAI",
+    "CIC"
+  ],
+  "key": {
+    "C": {
+      "item": "minecraft:cobblestone"
+    },
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+    "A": {
+      "item": "advancebase:advancium_ingot"
+    }
+  },
+  "result": {
+    "item": "advancebase:crude_machine_base"
+  }
+}
