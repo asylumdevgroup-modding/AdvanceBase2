@@ -7,7 +7,8 @@
 	],
 	"key": {
 		"R": {
-			"item": "advancebase:tin_ingot"
+			"type": "forge:ore_dict",
+        	"ore": "ingotTin"
 		},
 		"P": {
 			"item": "advancebase:gear_bushing"

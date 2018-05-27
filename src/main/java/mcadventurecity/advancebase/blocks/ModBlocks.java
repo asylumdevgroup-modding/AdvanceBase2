@@ -45,6 +45,7 @@ public class ModBlocks {
 		leadOre.initOreDict();
 		silverOre.initOreDict();
 		copperBlock.initOreDict();
+		tinBlock.initOreDict();
 		aluminumBlock.initOreDict();
 		leadBlock.initOreDict();
 		silverBlock.initOreDict();
