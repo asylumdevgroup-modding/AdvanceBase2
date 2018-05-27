@@ -37,7 +37,18 @@ public class ModBlocks {
 		);
 
 	}
-
+	public static void registerOres() {
+		advanciumOre.initOreDict();
+		copperOre.initOreDict();
+		tinOre.initOreDict();
+		aluminumOre.initOreDict();
+		leadOre.initOreDict();
+		silverOre.initOreDict();
+		copperBlock.initOreDict();
+		aluminumBlock.initOreDict();
+		leadBlock.initOreDict();
+		silverBlock.initOreDict();
+	}
 	public static void registerItemBlocks(IForgeRegistry<Item> registry) {
 		registry.registerAll(
 				advanciumOre.createItemBlock(),

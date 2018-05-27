@@ -19,7 +19,7 @@ import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 import net.minecraftforge.fml.common.registry.GameRegistry;
 
-@Mod(modid = Constants.MODID, name = Constants.MODNAME, version = Constants.VERSION, dependencies="required-after:forge@[2655,)")
+@Mod(modid = Constants.MODID, name = Constants.MODNAME, version = Constants.VERSION/*, dependencies="required-after:forge@[2703,)"*/)
 public class AdvanceBase {
     @SidedProxy(serverSide = "mcadventurecity.advancebase.util.CommonProxy", clientSide = "mcadventurecity.advancebase.util.ClientProxy")
     public static CommonProxy proxy;
@@ -37,7 +37,8 @@ public class AdvanceBase {
     }
     @Mod.EventHandler
     public void postInit(FMLPostInitializationEvent event){
-
+    	ModBlocks.registerOres();
+    	ModItems.registerOres();
     }
     @Mod.EventBusSubscriber
     public static class RegistrationHandler{

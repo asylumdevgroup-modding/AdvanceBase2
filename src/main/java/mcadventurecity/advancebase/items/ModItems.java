@@ -37,6 +37,18 @@ public class ModItems {
                 tinGear
         );
     }
+    public static void registerOres() {
+    	copperIngot.initOreDict();
+    	tinIngot.initOreDict();
+    	aluminumIngot.initOreDict();
+    	leadIngot.initOreDict();
+    	silverIngot.initOreDict();
+    	bronzeIngot.initOreDict();
+    	silicon.initOreDict();
+    	sulfurDust.initOreDict();
+    	copperGear.initOreDict();
+    	tinGear.initOreDict();
+    }
     public static void registerModels(){
         advanciumIngot.registerItemModel();
         copperIngot.registerItemModel();

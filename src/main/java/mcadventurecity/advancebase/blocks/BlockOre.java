@@ -10,7 +10,7 @@ public class BlockOre extends BlockBase {
 	public BlockOre(String name, String oreName) {
 		super(Material.ROCK, name);
 		
-		oreName = this.oreName;
+		this.oreName = oreName;
 		setHardness(3f);
 		setResistance(5f);
 	}
