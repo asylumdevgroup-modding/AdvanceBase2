@@ -8,7 +8,7 @@ import net.minecraftforge.registries.IForgeRegistry;
  */
 public class ModItems {
 
-    public static ItemBase advanciumIngot = new ItemBase("advancium_ingot");
+    public static ItemOre advanciumIngot = new ItemOre("advancium_ingot", "ingotAdvancium");
     public static ItemOre copperIngot = new ItemOre("copper_ingot", "ingotCopper");
     public static ItemOre tinIngot = new ItemOre("tin_ingot", "ingotTin");
     public static ItemOre aluminumIngot = new ItemOre("aluminum_ingot", "ingotAluminum");
@@ -38,6 +38,7 @@ public class ModItems {
         );
     }
     public static void registerOres() {
+    	advanciumIngot.initOreDict();
     	copperIngot.initOreDict();
     	tinIngot.initOreDict();
     	aluminumIngot.initOreDict();

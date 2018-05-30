@@ -12,6 +12,7 @@ public class ModBlocks {
 	public static BlockOre aluminumOre = new BlockOre("aluminum_ore", "oreAluminum");
 	public static BlockOre leadOre = new BlockOre("lead_ore", "oreLead");
 	public static BlockOre silverOre = new BlockOre("silver_ore", "oreSilver");
+	public static BlockOre advanciumBlock = new BlockOre("advancium_block", "blockAdvancium");
 	public static BlockOre copperBlock = new BlockOre("copper_block", "blockCopper");
 	public static BlockOre tinBlock = new BlockOre("tin_block", "blockTin");
 	public static BlockOre aluminumBlock = new BlockOre("aluminum_block", "blockAluminum");
@@ -30,7 +31,8 @@ public class ModBlocks {
 				tinBlock,
 				aluminumBlock,
 				leadBlock,
-				silverBlock
+				silverBlock,
+				advanciumBlock
 		);
 
 	}
@@ -46,6 +48,7 @@ public class ModBlocks {
 		aluminumBlock.initOreDict();
 		leadBlock.initOreDict();
 		silverBlock.initOreDict();
+		advanciumBlock.initOreDict();
 	}
 	public static void registerItemBlocks(IForgeRegistry<Item> registry) {
 		registry.registerAll(
@@ -59,7 +62,8 @@ public class ModBlocks {
 				tinBlock.createItemBlock(),
 				aluminumBlock.createItemBlock(),
 				leadBlock.createItemBlock(),
-				silverBlock.createItemBlock()
+				silverBlock.createItemBlock(),
+				advanciumBlock.createItemBlock()
 		);
 	}
 
@@ -75,5 +79,6 @@ public class ModBlocks {
 		aluminumBlock.registerItemModel(Item.getItemFromBlock(aluminumBlock));
 		leadBlock.registerItemModel(Item.getItemFromBlock(leadBlock));
 		silverBlock.registerItemModel(Item.getItemFromBlock(silverBlock));
+		advanciumBlock.registerItemModel(Item.getItemFromBlock(advanciumBlock));
 	}
 }

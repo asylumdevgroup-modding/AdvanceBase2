@@ -10,6 +10,7 @@ tile.tin_block.name=Tin Block
 tile.aluminum_block.name=Aluminum Block
 tile.lead_block.name=Lead Block
 tile.silver_block.name=Silver Block
+tile.advancium_block.name=Advancium Block
 
 item.copper_ingot.name=Copper Ingot
 item.tin_ingot.name=Tin Ingot
