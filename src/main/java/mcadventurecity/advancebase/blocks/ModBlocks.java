@@ -1,7 +1,6 @@
 package mcadventurecity.advancebase.blocks;
 
 import net.minecraft.block.Block;
-import net.minecraft.block.material.Material;
 import net.minecraft.item.Item;
 import net.minecraftforge.registries.IForgeRegistry;
 
@@ -18,7 +17,6 @@ public class ModBlocks {
 	public static BlockOre aluminumBlock = new BlockOre("aluminum_block", "blockAluminum");
 	public static BlockOre leadBlock = new BlockOre("lead_block", "blockLead");
 	public static BlockOre silverBlock = new BlockOre("silver_block", "blockSilver");
-	public static BlockBase crudeMachineBase = new BlockBase(Material.ROCK, "crude_machine_base");
 	
 	public static void register(IForgeRegistry<Block> registry) {
 		registry.registerAll(
@@ -32,8 +30,7 @@ public class ModBlocks {
 				tinBlock,
 				aluminumBlock,
 				leadBlock,
-				silverBlock,
-				crudeMachineBase
+				silverBlock
 		);
 
 	}
@@ -62,8 +59,7 @@ public class ModBlocks {
 				tinBlock.createItemBlock(),
 				aluminumBlock.createItemBlock(),
 				leadBlock.createItemBlock(),
-				silverBlock.createItemBlock(),
-				crudeMachineBase.createItemBlock()
+				silverBlock.createItemBlock()
 		);
 	}
 
@@ -79,6 +75,5 @@ public class ModBlocks {
 		aluminumBlock.registerItemModel(Item.getItemFromBlock(aluminumBlock));
 		leadBlock.registerItemModel(Item.getItemFromBlock(leadBlock));
 		silverBlock.registerItemModel(Item.getItemFromBlock(silverBlock));
-		crudeMachineBase.registerItemModel(Item.getItemFromBlock(crudeMachineBase));
 	}
 }
