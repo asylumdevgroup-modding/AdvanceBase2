@@ -24,5 +24,9 @@ item.sulfur_dust.name=Sulfur Dust
 item.gear_bushing.name=Gear Bushing
 item.copper_gear.name=Copper Gear
 item.tin_gear.name=Tin Gear
+item.aluminum_gear.name=Aluminum Gear
+item.lead_gear.name=Lead Gear
+item.silver_gear.name=Silver Gear
+item.bronze_gear.name=Bronze Gear
 
 itemGroup.advancebase=AdvanceBase

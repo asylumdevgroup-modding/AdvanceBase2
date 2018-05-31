@@ -1,0 +1,13 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"ingredients": [
+		{
+			"type": "forge:ore_dict",
+      		"ore": "blockAdvancium"
+		}
+	],
+	"result": {
+		"item": "advancebase:advancium_ingot",
+		"count": 9
+	}
+}

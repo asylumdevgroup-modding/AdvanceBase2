@@ -20,6 +20,10 @@ public class ModItems {
     public static ItemBase gearBushing = new ItemBase("gear_bushing");
     public static ItemOre copperGear = new ItemOre("copper_gear", "gearCopper");
     public static ItemOre tinGear = new ItemOre("tin_gear", "gearTin");
+    public static ItemOre aluminumGear = new ItemOre("aluminum_gear", "gearAluminum");
+    public static ItemOre leadGear = new ItemOre("lead_gear", "gearLead");
+    public static ItemOre silverGear = new ItemOre("silver_gear", "gearSilver");
+    public static ItemOre bronzeGear = new ItemOre("bronze_gear", "gearBronze");
 
     public static void register(IForgeRegistry<Item> registry){
         registry.registerAll(
@@ -34,7 +38,11 @@ public class ModItems {
                 sulfurDust,
                 gearBushing,
                 copperGear,
-                tinGear
+                tinGear,
+                aluminumGear,
+                leadGear,
+                silverGear,
+                bronzeGear
         );
     }
     public static void registerOres() {
@@ -49,6 +57,10 @@ public class ModItems {
     	sulfurDust.initOreDict();
     	copperGear.initOreDict();
     	tinGear.initOreDict();
+    	aluminumGear.initOreDict();
+    	leadGear.initOreDict();
+    	silverGear.initOreDict();
+    	bronzeGear.initOreDict();
     }
     public static void registerModels(){
         advanciumIngot.registerItemModel();
@@ -63,5 +75,9 @@ public class ModItems {
         gearBushing.registerItemModel();
         copperGear.registerItemModel();
         tinGear.registerItemModel();
+        aluminumGear.registerItemModel();
+        leadGear.registerItemModel();
+        silverGear.registerItemModel();
+        bronzeGear.registerItemModel();
     }
 }
