@@ -6,7 +6,7 @@ import net.minecraftforge.registries.IForgeRegistry;
 /**
  * Created by Jarod Reichel on 7/16/2017.
  */
-public class ModItems {
+public class AdvanceBaseItems {
 
     public static ItemOre advanciumIngot = new ItemOre("advancium_ingot", "ingotAdvancium");
     public static ItemOre copperIngot = new ItemOre("copper_ingot", "ingotCopper");

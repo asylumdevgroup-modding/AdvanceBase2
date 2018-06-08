@@ -1,4 +1,4 @@
-package mcadventurecity.advancebase.util;
+package mcadventurecity.advancebase.proxy;
 
 import net.minecraft.item.Item;
 

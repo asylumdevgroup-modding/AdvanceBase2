@@ -1,6 +1,6 @@
 package mcadventurecity.advancebase.util;
 
-import mcadventurecity.advancebase.items.ModItems;
+import mcadventurecity.advancebase.items.AdvanceBaseItems;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.ItemStack;
 
@@ -13,6 +13,6 @@ public class AdvanceBaseTab extends CreativeTabs{
     }
     @Override
     public ItemStack getTabIconItem(){
-        return new ItemStack(ModItems.advanciumIngot);
+        return new ItemStack(AdvanceBaseItems.advanciumIngot);
     }
 }

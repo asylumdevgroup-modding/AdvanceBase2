@@ -4,7 +4,7 @@ import net.minecraft.block.Block;
 import net.minecraft.item.Item;
 import net.minecraftforge.registries.IForgeRegistry;
 
-public class ModBlocks {
+public class AdvanceBaseBlocks {
 	
 	public static BlockOre advanciumOre = new BlockOre("advancium_ore", "oreAdvancium");
 	public static BlockOre copperOre = new BlockOre("copper_ore", "oreCopper");
