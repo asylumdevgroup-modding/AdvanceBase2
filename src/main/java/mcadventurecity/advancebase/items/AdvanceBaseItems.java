@@ -24,6 +24,18 @@ public class AdvanceBaseItems {
     public static ItemOre leadGear = new ItemOre("lead_gear", "gearLead");
     public static ItemOre silverGear = new ItemOre("silver_gear", "gearSilver");
     public static ItemOre bronzeGear = new ItemOre("bronze_gear", "gearBronze");
+    public static ItemOre copperDust = new ItemOre("copper_dust", "dustCopper");
+    public static ItemOre tinDust = new ItemOre("tin_dust", "dustTin");
+    public static ItemOre aluminumDust = new ItemOre("aluminum_dust", "dustAluminum");
+    public static ItemOre leadDust = new ItemOre("lead_dust", "dustLead");
+    public static ItemOre silverDust = new ItemOre("silver_dust", "dustSilver");
+    public static ItemOre bronzeDust = new ItemOre("bronze_dust", "dustBronze");
+    public static ItemOre copperNugget = new ItemOre("copper_nugget", "nuggetCopper");
+    public static ItemOre tinNugget = new ItemOre("tin_nugget", "nuggetTin");
+    public static ItemOre aluminumNugget = new ItemOre("aluminum_nugget", "nuggetAluminum");
+    public static ItemOre leadNugget = new ItemOre("lead_nugget", "nuggetLead");
+    public static ItemOre silverNugget = new ItemOre("silver_nugget", "nuggetSilver");
+    public static ItemOre bronzeNugget = new ItemOre("bronze_nugget", "nuggetBronze");
 
     public static void register(IForgeRegistry<Item> registry){
         registry.registerAll(
@@ -42,7 +54,19 @@ public class AdvanceBaseItems {
                 aluminumGear,
                 leadGear,
                 silverGear,
-                bronzeGear
+                bronzeGear,
+                copperDust,
+                tinDust,
+                aluminumDust,
+                leadDust,
+                silverDust,
+                bronzeDust,
+                copperNugget,
+                tinNugget,
+                aluminumNugget,
+                leadNugget,
+                silverNugget,
+                bronzeNugget
         );
     }
     public static void registerOres() {
@@ -61,6 +85,18 @@ public class AdvanceBaseItems {
     	leadGear.initOreDict();
     	silverGear.initOreDict();
     	bronzeGear.initOreDict();
+    	copperDust.initOreDict();
+    	tinDust.initOreDict();
+    	aluminumDust.initOreDict();
+    	leadDust.initOreDict();
+    	silverDust.initOreDict();
+    	bronzeDust.initOreDict();
+    	copperNugget.initOreDict();
+    	tinNugget.initOreDict();
+    	aluminumNugget.initOreDict();
+    	leadNugget.initOreDict();
+    	silverNugget.initOreDict();
+    	bronzeNugget.initOreDict();
     }
     public static void registerModels(){
         advanciumIngot.registerItemModel();
@@ -79,5 +115,17 @@ public class AdvanceBaseItems {
         leadGear.registerItemModel();
         silverGear.registerItemModel();
         bronzeGear.registerItemModel();
+        copperDust.registerItemModel();
+        tinDust.registerItemModel();
+        aluminumDust.registerItemModel();
+        leadDust.registerItemModel();
+        silverDust.registerItemModel();
+        bronzeDust.registerItemModel();
+        copperNugget.registerItemModel();
+        tinNugget.registerItemModel();
+        aluminumNugget.registerItemModel();
+        leadNugget.registerItemModel();
+        silverNugget.registerItemModel();
+        bronzeNugget.registerItemModel();
     }
 }

@@ -28,5 +28,17 @@ item.aluminum_gear.name=Aluminum Gear
 item.lead_gear.name=Lead Gear
 item.silver_gear.name=Silver Gear
 item.bronze_gear.name=Bronze Gear
+item.copper_dust.name=Copper Dust
+item.tin_dust.name=Tin Dust
+item.aluminum_dust.name=Aluminum Dust
+item.lead_dust.name=Lead Dust
+item.silver_dust.name=Silver Dust
+item.bronze_dust.name=Bronze Dust
+item.copper_nugget.name=Copper Nugget
+item.tin_nugget.name=Tin Nugget
+item.aluminum_nugget.name=Aluminum Nugget
+item.lead_nugget.name=Lead Nugget
+item.silver_nugget.name=Silver Nugget
+item.bronze_nugget.name=Bronze Nugget
 
 itemGroup.advancebase=AdvanceBase
