@@ -1,6 +1,9 @@
 package mcadventurecity.advancebase;
 
 import mcadventurecity.advancebase.util.AdvanceBaseTab;
+
+import org.apache.logging.log4j.Logger;
+
 import mcadventurecity.advancebase.blocks.AdvanceBaseBlocks;
 import mcadventurecity.advancebase.items.AdvanceBaseItems;
 import mcadventurecity.advancebase.proxy.CommonProxy;
@@ -11,7 +14,7 @@ import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.fml.common.Mod;
 import mcadventurecity.advancebase.util.Constants;
 import mcadventurecity.advancebase.util.AdvanceBaseRecipes;
-import mcadventurecity.advancebase.world.ModWorldGen;
+import mcadventurecity.advancebase.world.AdvanceBaseWorldGen;
 import net.minecraftforge.fml.common.SidedProxy;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
@@ -26,10 +29,13 @@ public class AdvanceBase {
     public static final AdvanceBaseTab advanceBaseTab = new AdvanceBaseTab();
     @Mod.Instance(Constants.MODID)
     public static AdvanceBase instance;
-
+    public static Logger logger;
+    
     @Mod.EventHandler
     public void preInit(FMLPreInitializationEvent event){
-    	GameRegistry.registerWorldGenerator(new ModWorldGen(), 3);
+    	logger = event.getModLog();
+    	proxy.preInit(event);
+    	GameRegistry.registerWorldGenerator(new AdvanceBaseWorldGen(), 3);
     }
     @Mod.EventHandler
     public void init(FMLInitializationEvent event){
@@ -37,6 +43,7 @@ public class AdvanceBase {
     }
     @Mod.EventHandler
     public void postInit(FMLPostInitializationEvent event){
+    	proxy.postInit(event);
     	AdvanceBaseBlocks.registerOres();
     	AdvanceBaseItems.registerOres();
     }
