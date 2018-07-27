@@ -40,5 +40,11 @@ item.aluminum_nugget.name=Aluminum Nugget
 item.lead_nugget.name=Lead Nugget
 item.silver_nugget.name=Silver Nugget
 item.bronze_nugget.name=Bronze Nugget
+item.copper_plate.name=Copper Plate
+item.tin_plate.name=Tin Plate
+item.aluminum_plate.name=Aluminum Plate
+item.lead_plate.name=Lead Plate
+item.silver_plate.name=Silver Plate
+item.bronze_plate.name=Bronze Plate
 
 itemGroup.advancebase=AdvanceBase

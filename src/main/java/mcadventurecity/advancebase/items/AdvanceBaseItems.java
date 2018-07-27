@@ -36,6 +36,12 @@ public class AdvanceBaseItems {
     public static ItemOre leadNugget = new ItemOre("lead_nugget", "nuggetLead");
     public static ItemOre silverNugget = new ItemOre("silver_nugget", "nuggetSilver");
     public static ItemOre bronzeNugget = new ItemOre("bronze_nugget", "nuggetBronze");
+    public static ItemOre copperPlate = new ItemOre("copper_plate", "plateCopper");
+    public static ItemOre tinPlate = new ItemOre("tin_plate", "plateTin");
+    public static ItemOre aluminumPlate = new ItemOre("aluminum_plate", "plateAluminum");
+    public static ItemOre leadPlate = new ItemOre("lead_plate", "plateLead");
+    public static ItemOre silverPlate = new ItemOre("silver_plate", "plateSilver");
+    public static ItemOre bronzePlate = new ItemOre("bronze_plate", "plateBronze");
 
     public static void register(IForgeRegistry<Item> registry){
         registry.registerAll(
@@ -66,7 +72,13 @@ public class AdvanceBaseItems {
                 aluminumNugget,
                 leadNugget,
                 silverNugget,
-                bronzeNugget
+                bronzeNugget,
+                copperPlate,
+                tinPlate,
+                aluminumPlate,
+                leadPlate,
+                silverPlate,
+                bronzePlate
         );
     }
     public static void registerOres() {
@@ -97,6 +109,12 @@ public class AdvanceBaseItems {
     	leadNugget.initOreDict();
     	silverNugget.initOreDict();
     	bronzeNugget.initOreDict();
+    	copperPlate.initOreDict();
+    	tinPlate.initOreDict();
+    	aluminumPlate.initOreDict();
+    	leadPlate.initOreDict();
+    	silverPlate.initOreDict();
+    	bronzePlate.initOreDict();
     }
     public static void registerModels(){
         advanciumIngot.registerItemModel();
@@ -127,5 +145,11 @@ public class AdvanceBaseItems {
         leadNugget.registerItemModel();
         silverNugget.registerItemModel();
         bronzeNugget.registerItemModel();
+        copperPlate.registerItemModel();
+        tinPlate.registerItemModel();
+        aluminumPlate.registerItemModel();
+        leadPlate.registerItemModel();
+        silverPlate.registerItemModel();
+        bronzePlate.registerItemModel();
     }
 }
